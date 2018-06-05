@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   
   s.source_files = 'Source/*.{swift}'
- 
+  s.resources = ['py/emojis.json']
 end
